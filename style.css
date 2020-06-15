@@ -1,0 +1,214 @@
+/* Master style */
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    height: 100%;
+    margin: 0px;
+}
+h1 {
+  font-family: 'Patrick Hand', cursive;
+}
+h5 {
+  font-family: 'Patrick Hand', cursive;
+}
+/* about me */
+.row {
+  height: 100px;
+  width: 100%
+}
+#divContainer {
+  margin-left: auto;
+  margin-right: 0;
+}
+#aboutme {
+  background-image: url(./images/coding.jpg);
+  backface-visibility: hidden;
+  background-size: 100%;
+  background-repeat: repeat;
+  background-attachment: fixed;
+  color: rgb(220, 219, 248);
+  margin-top: 20px;
+}
+.aboutme {
+  margin-top: 20px;
+  padding: 70px;
+}
+
+#portfolio {
+  background-image: url(./images/24-249458_background-dots-monochrome.png);
+  background-size: 15%;
+  background-repeat: repeat;
+  background-attachment: fixed;
+}
+#contactme {
+  background-image: url(./images/laptoppink.jpg);
+  background-size: 100%;
+  background-repeat: repeat;
+  background-attachment: fixed;
+}
+.container {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+header {
+  margin-top: 0;
+  padding: 0;
+}
+#container {
+    min-height: 100%;
+}
+.container-fluid {
+  padding-top: 100px;
+}
+
+#main {
+  overflow: auto;
+  padding-bottom: 800px;
+}
+.header {
+  box-shadow: indigo;
+  position: fixed;
+  padding: 0px;
+  margin: auto 0 auto 0;
+  top: 0;
+}
+/* Nav style */
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+}
+.nav-item {
+  border-bottom: 1px solid transparent;
+  transition: border-bottom 0.5s;
+}
+.nav-item a {
+  columns: 8a8a8a;
+  text-decoration: none;
+  transition: color 0.5s;
+} 
+.nav-link:hover {
+  border-bottom: 3px solid black;
+}
+#aboutme .nav-link:hover {
+  border-bottom: 3px solid red;
+} 
+.nav-item a:hover {
+  color: black;
+} 
+.navbar-brand {
+    font-size: 36px;
+    background-color: rgb(130, 133, 211);
+    margin: 0px;
+    padding-top: 0px;
+    font-family: 'Patrick Hand', cursive;
+} 
+#navbar {
+  background-color: blueviolet;
+  border-bottom: blue 2px dotted;
+} 
+
+
+#form-group {
+  border: 1px solid;
+  width: 600px;
+}
+#footer {
+    padding-top: 30px;
+    background-color: rgb(52, 48, 97);
+    color: honeydew;
+    height: 100px;
+    text-align: center;
+    position: fixed;
+    margin-top: -100px;
+    clear: both;
+    border-top: 2px dotted honeydew;
+}
+@media screen and (max-width: 768px) {
+    body {
+      background-color: #333;
+    }
+    .wrapper {
+      width: 600px;
+    }
+  }
+@media screen and (max-width: 480px) {
+  body {
+    background-color: purple;
+  }
+  .wrapper {
+    width: 600px;
+  }
+}
+
+/* Portfolio styles */
+
+.portfolio-items-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.portfolio-item-wrapper {
+  position: relative;
+}
+.portfolio-img-background {
+  height: 350px;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.img-text-wrapper {
+  position: absolute;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  text-align: center;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.logo-wrapper img {
+  width: 50%;
+  margin-bottom: 20px;
+}
+/* Need to be more specific with selector */
+
+.img-text-wrapper .subtitle {
+  transition: 1s;
+  font-weight: 600;
+  color: transparent;
+}
+
+.img-text-wrapper:hover .subtitle {
+  font-weight: 600;
+  color: rgb(88, 66, 211);
+}
+.img-darken {
+  transition: 1s;
+  filter: brightness(10%);
+}
+/* contact page*/
+#exampleInputMessage {
+  height: 35px;
+}
+/* custom styling for specific icons */
+.social-icons {
+  padding-left: 60px;
+  flex-wrap: nowrap;
+}
+.fa-github {
+  color: black;
+}
+.fa-linkedin-in {
+  color: #2f22a1;
+}
+.fa-instagram {
+  color: rgb(151, 28, 28);
+}
+.fa-facebook {
+  color: rgb(19, 72, 179);
+}

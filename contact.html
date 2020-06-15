@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact me</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        
+    <script src="https://kit.fontawesome.com/a86f4fac7b.js" crossorigin="anonymous"></script>
+</head>
+<body id="contactme">
+  <header class="fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" id="navbar">
+      <a class="navbar-brand" href="index.html">Tatyana Khan</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">About <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="portfolio.html">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <div class="container container-fluid" id="main">
+    <div class="row">
+      <div class="col-lg-10">
+        <h1>Contact</h1>
+        <form id="form-group">
+          <div class="form-group">
+              <label for="exampleInputName">Name</label>
+              <input type="message" class="form-control" id="exampleInputMessage" placeholder="John Smith">
+          </div>
+          <div class="form-group">
+            <label for="exampleInputEmail1">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="example@gmail.com">
+            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+          </div>
+          <div class="form-group">
+            <label for="exampleFormControlTextarea1">Message</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Enter your message"></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+      </div>
+      <div class="col-lg-2">
+        <div class="social-icons">
+          <div class="col-md-3 col-lg">
+            <a class="social-link" href="https://github.com/khantatyana" target="_blank"><i class="fab fa-github fa-5x"> </i></a>
+          </div>
+          <div class='col-md-3 col-xs'>
+            <a  class="social-link" href="https://linkedin.com/in/khan-tatyana-b312434a" target="_blank"><i class="fab fa-linkedin-in fa-5x"></i></a>
+          </div>
+          <div class="col-md-3 col-xs">
+            <a class="social-link" href="https://www.facebook.com/tatyana.khan.5" target="_blank"><i class="fab fa-facebook fa-5x"></i></a>
+          </div>
+          <div class="col-md-3 col-xs">
+            <a class="social-link" href="https://instagram.com/hantanya"  target="_blank" ><i class="fab fa-instagram fa-5x"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer class="footer fixed-bottom" id="footer">@ Copyright</footer>
+</body>
+</html>
