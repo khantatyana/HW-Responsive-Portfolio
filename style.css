@@ -151,6 +151,9 @@ header {
 }
 .portfolio-item-wrapper {
   position: relative;
+  width: 100%;
+  margin: 0;
+
 }
 .portfolio-img-background {
   height: 350px;
@@ -181,11 +184,13 @@ header {
   transition: 1s;
   font-weight: 600;
   color: transparent;
+  font-size: 30px;
 }
 
 .img-text-wrapper:hover .subtitle {
   font-weight: 600;
   color: rgb(88, 66, 211);
+  font-size: 30x;
 }
 .img-darken {
   transition: 1s;
