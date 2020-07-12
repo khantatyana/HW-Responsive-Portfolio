@@ -61,6 +61,7 @@ header {
 }
 .container-fluid {
   padding-top: 100px;
+  margin-left: 200px;
 }
 
 #main {
@@ -193,7 +194,7 @@ header {
   font-size: 30x;
 }
 .img-darken {
-  transition: 1s;
+  transition: 0.5s;
   filter: brightness(10%);
 }
 /* contact page*/
@@ -202,7 +203,7 @@ header {
 }
 /* custom styling for specific icons */
 .social-icons {
-  padding-left: 60px;
+  padding-left: 100px;
   flex-wrap: nowrap;
 }
 .fa-github {
