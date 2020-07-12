@@ -178,16 +178,16 @@ header {
 .logo-wrapper img {
   width: 50%;
   margin-bottom: 20px;
+ 
 }
 /* Need to be more specific with selector */
 
 .img-text-wrapper .subtitle {
-  transition: 1s;
+  transition: 0.5s;
   font-weight: 600;
   color: transparent;
   font-size: 30px;
 }
-
 .img-text-wrapper:hover .subtitle {
   font-weight: 600;
   color: rgb(88, 66, 211);
