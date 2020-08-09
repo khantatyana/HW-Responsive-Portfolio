@@ -1,5 +1,7 @@
 https://khantatyana.github.io/HW-Responsive-Portfolio/
 
+![Image Alt Text](./Assets/Images/portf.png)
+
 # Unit 02 CSS and Bootstrap Homework: Responsive Portfolio
 
 I used the Bootstrap CSS Framework to create a mobile responsive portfolio with 3 pages: `index.html`, `portfolio.html` and `contact.html`.
